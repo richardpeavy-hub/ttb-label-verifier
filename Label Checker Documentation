@@ -1,0 +1,15 @@
+Per the instructions provided in the Take-Home Project
+
+Approach: Originally tried building a web-based OCR utilizing JavaScript and programming assistance from Gemini AI.  But troubleshooting issues that came up proved time consuming and problematic due to my lack of knowledge with JavaScript.  So I turned to a language I am more familiar with; AutoIt.  With assistance once again from Gemini AI a new prototype was created, but it is currently incomplete.  I built the current code into separate modules for readability and easy modification so future updates and changes can be readily added.  Currently, it can process image labels stored in a directory and output the text it finds into another.  Due to time restrictions and severely limited budget I was unable to refine the OCR processing to an acceptable enough level to implement TTB checking.
+
+Tools Used: AutoIt and Gemini AI for quicker code building
+
+Assumptions: 
+
+1. The utility intended for the tool is supposed to help reduce the amount of human oversight needed, not to eliminate it.  For this I would want to see how TTB agents currently check labels and get their input on the "good and the bad" about the process.
+
+2. The tool should be able to run on any OS.  This was why I tried for a web based version originally.
+
+3. A straightforward UI.  The interface should make it obvious how the tool should be used.
+
+4. The tool should be able to offload as much of the reduntant steps from the user.  And if possible, implement a form of AI to help with it.  This step would require much more time and a budget, among other things.
